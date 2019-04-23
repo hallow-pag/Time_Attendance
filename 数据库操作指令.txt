@@ -1,0 +1,63 @@
+
+
+//数据库链接
+server=119.23.106.150;port=3306;User=;password=;Database=
+//查询工号1309教师的授课班级
+select Teacher_ID.discipline from Teacher where Teacher_ID = '1309';
+
+
+//总表查寻对比出未到学生 (Information->学生基础总表,Attendance->教师的临时表)
+select Information.STUDENT_ID,Information.STUDENT_NAME from Information  left join Attendance  on Information.STUDENT_ID=Attendance.STUDENT_ID where (Professional in ('物联网17203','物联网17204')) and Attendance.STUDENT_ID is null ;
+
+
+//查询工号1309教师一学期所有迟到、请假的学生
+select Rest.STUDENT_ID,Rest.Name,Rest.Class_ID,Rest.Situation,Rest.Time from Rest where Rest.Teacher_ID='1309';
+
+
+///教师临时表
+INSERT INTO 1309(
+STUDENT_ID,
+STUDENT_NAME,
+Face_ID,
+F_ID,
+Time,
+Register
+)select 
+Information.STUDENT_ID,
+Information.STUDENT_NAME,
+Information.STUDENT_ID,
+from Information whfessional in ('物联网17203','物联网17204');
+
+
+select Information.STUDENT_ID,Information.STUDENT_NAME from Information  left join _1309  on Information.STUDENT_ID=_1309.STUDENT_ID where (Professional in ('物联网17203','物联网17204')) and _1309.STUDENT_ID is null ;
+
+添加
+insert into Rest(STUDENT_ID,Name,Situation,Class_ID,Time,Teacher_ID) values('学号','姓名','旷课','物联网17203','时间','教师ID')
+///总表增加语句
+insert into Information( STUDENT_ID, STUDENT_NAME, Department, Professional, Grade, Sex, ID_CARD, Is_commie, Is_position )
+values
+('学号','姓名','计算机科学与工程系','物联网17201','2017级','男','111111','非党员','非干部'),
+('学号','姓名','计算机科学与工程系','物联网17201','2017级','男','111111','非党员','非干部');
+
+//修改教师密码语句
+UPDATE Teacher SET Password = '309' WHERE Teacher_ID = '1309';
+
+
+///增加成员信息时查看是否重复
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
