@@ -4,32 +4,29 @@
 
 功能图：
 
-![](https://github.com/hallow-pag/Time_Attendance/raw/master/src/s.png)
+![](https://github.com/hallow-pag/Time_Attendance/raw/master/res/s.png)
 
 项目页面展示：
 
-![a](https://github.com/hallow-pag/Time_Attendance/raw/master/src/a.png)
+![a](https://github.com/hallow-pag/Time_Attendance/raw/master/res/a.png)
 
 
 
-![b](https://github.com/hallow-pag/Time_Attendance/raw/master/src/b.png)
-
-
-
-
-
-
-
-![c](https://github.com/hallow-pag/Time_Attendance/raw/master/src/c.png)
+![b](https://github.com/hallow-pag/Time_Attendance/raw/master/res/b.png)
 
 
 
 
-
-![d](https://github.com/hallow-pag/Time_Attendance/raw/master/src/d.png)
+![c](https://github.com/hallow-pag/Time_Attendance/raw/master/res/c.png)
 
 
 
 
 
-![e](https://github.com/hallow-pag/Time_Attendance/raw/master/src/e.png)
+![d](https://github.com/hallow-pag/Time_Attendance/raw/master/res/d.png)
+
+
+
+
+
+![e](https://github.com/hallow-pag/Time_Attendance/raw/master/res/e.png)
